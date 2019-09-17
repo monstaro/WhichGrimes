@@ -1,0 +1,230 @@
+body, html {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-shadow: 0px 5px 10px grey;
+}
+
+.nav-button {
+  height: 70px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.background {
+  background: url("images/background.png");
+  height: -webkit-fill-available;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+}
+
+
+.player-inputs {
+  margin: auto;
+  justify-content: center;
+}
+
+
+.form-wrap {
+  display: inline-block;
+  padding: 50px;
+}
+
+
+.player-name {
+  height: 1em;
+  width: 9em;
+}
+
+
+.form-wrap input {
+  font-size: 2em;
+  padding: 0.5em;
+
+}
+
+.form-wrap label {
+  display: block;
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 1.3em;
+}
+
+
+
+.play-button {
+  width: 90%;
+  margin: auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #EEEEEE;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.playButtonTwo {
+  width: 50%;
+  margin: auto;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #EEEEEE;
+  background-color: #000000;
+  padding: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.alert {
+  color: red;
+  margin-left: 30%;
+  background-color: black;
+  border-radius: 180px;
+  border-width: thick;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.directions {
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.dynamicCard {
+  display: flex;
+}
+
+.dynamicPanel {
+  height: 90%;
+  width: 160%;
+  background-color: #000000;
+  margin: auto;
+}
+
+.cardContainer {
+  display: inline-block;
+}
+
+.dynamicCardTop {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+
+.dynamicCardMid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+
+.dynamicCardBottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
+.cardImg1 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(9deg);
+}
+
+.grimesImg1 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(9deg);
+  background-image: url("images/grimes01.jpg")
+}
+
+.cardImg2 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(-16deg);
+}
+
+.cardImg3 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(-3deg);
+}
+
+.cardImg4 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(-27deg);
+}
+
+.cardImg5 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(14deg);
+}
+
+.cardImg6 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(-9deg);
+}
+
+.cardImg7 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(10deg);
+}
+
+.cardImg8 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(2deg);
+}
+
+.cardImg9 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(-23deg);
+}
+
+.cardImg10 {
+  margin: auto;
+  width: 10%;
+  transform: rotate(30deg);
+}
+
+  @media all and (max-width: 600px)
+    .background {
+      background: url("images/background.png");
+      height: auto;
+      background-size: fill;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+    }
